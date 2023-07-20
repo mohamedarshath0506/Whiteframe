@@ -1,8 +1,11 @@
 import "./whiteframe.css"
+import { Link } from "react-router-dom"
 import whiteFrameMan from "../image/whiteFrameMan.png"
 import rightIcon from "../image/right-icon.png"
 import khanAcademy from "../image/khan-academy.png"
 import internationalFundation from "../image/international-fundation.png"
+import Header from "./header"
+
 
 function WhiteFrame() {
     return (
