@@ -1,11 +1,15 @@
 import { NavLink } from "react-router-dom";
+import css from "../image/css.png"
 
 function Courses2() {
     return(
-        <div>
+        <div className="html-item">
             <div>
-                <h1>Nusaim</h1>
-                <NavLink to="/courses" className="link">Back</NavLink>
+                <img src={css} width={400} />
+            </div>
+            <div>           
+                <h1 className="css-model">My First CSS Example</h1>
+                <p className="css-model">This is a paragraph.</p>
             </div>
         </div>
     )

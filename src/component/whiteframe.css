@@ -5,7 +5,9 @@ hr {
 }
 
 .container {
+    /* padding: 20px; */
     margin: 0 150px;
+    /* background-color: lightyellow; */
 }
 
 .whiteframe-container{
@@ -30,6 +32,7 @@ hr {
 }
 
 .link {
+    /* font-size: 30px; */
     padding: 8px 12px;
     text-decoration: none;
     color: #000;
@@ -177,6 +180,7 @@ nav a.active {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 
 .card-item {
@@ -185,5 +189,25 @@ nav a.active {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid #000;
+    /* border: 3px solid #000; */
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.html-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.btn {
+    font-size: 30px;
+}
+
+.css-model {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #000;
 }
